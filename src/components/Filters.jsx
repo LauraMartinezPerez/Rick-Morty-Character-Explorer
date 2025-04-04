@@ -1,9 +1,11 @@
 import FilterName from "./FilterName";
+import FilterStatus from "./FilterStatus";
 
-function Filters() {
+function Filters({ onChangeName }) {
   return (
     <form className="filtersClass">
-        <FilterName />
+        <FilterName onChangeName={onChangeName}/>
+        <FilterStatus />
       
 
     </form>
