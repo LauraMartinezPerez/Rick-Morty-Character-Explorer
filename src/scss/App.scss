@@ -1,0 +1,11 @@
+@use 'core/reset';
+@use "layout/characterList";
+@use "core/variables" as vars;
+
+:root {
+
+    color: vars.$color-black;
+    font-family: vars.$font-normal;
+
+    
+}
