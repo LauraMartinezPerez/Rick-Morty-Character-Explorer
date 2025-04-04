@@ -42,10 +42,12 @@ const changeStatus = (valueStatus) => {
     const filteredCharacters = characters.filter((character) => {
         return character.name.toLowerCase().includes(filterName.toLowerCase());
     }).filter((character) => {
-        if (filterStatus === ""){
+      /*   if (filterStatus === ""){
             return true;
         } else {
-            return filterStatus === character.status;}
+            return filterStatus === character.status;} */
+        return filterStatus === "" ? true : filterStatus === character.status;
+    
     }) 
     
 
