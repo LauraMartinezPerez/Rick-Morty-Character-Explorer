@@ -38,7 +38,7 @@ function App() {
         <>
             <Header /> 
             <main>
-            <Filters />
+                <Filters />
                 <CharacterList charactersData={characters}/>
             </main>
 

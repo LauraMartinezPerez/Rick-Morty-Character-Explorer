@@ -1,11 +1,35 @@
 
 .listClass {
 
-    &__img {
-        width: 300px;
+    &__ul {
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+        padding: 30px;
+
     }
 
-    &__ul {
+    &__li {
+        background-color:cadetblue;
+        display: flex;
+        flex: 1 1 auto;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-bottom: 10px;
+ 
 
+
+    }
+
+    &__img {
+        width: 100%;
+        max-width: min(400px, 100%);
+        min-width: max(100px, 50%);
+        height: auto;
     }
 }
