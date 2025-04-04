@@ -8,6 +8,7 @@ function App() {
   //VARIABLES DE ESTADO
   const [characters, setCharacters] = useState([]);
   const [filterName, setFilterName] = useState("");
+  const [filterStatus, setFilterStatus] = useState("");
 
   useEffect(() => {
     fetch("https://rickandmortyapi.com/api/character")
@@ -23,24 +24,40 @@ function App() {
           };
         });
         setCharacters(parsedCharacters);
+        
       });
+     console.log(characters);
   }, []);
+
 
 const changeName = (valueName) => {
     setFilterName(valueName);
 }
 
+const changeStatus = (valueStatus) => {
+    setFilterStatus(valueStatus);
+    
+}
+
+
 //nuevo array que recoge el filtro por nombre
     const filteredCharacters = characters.filter((character) => {
-        return character.name.toLowerCase().includes(filterName);
-    })
-console.log(filteredCharacters);
-
+        return character.name.toLowerCase().includes(filterName.toLowerCase());
+    }).filter((character) => {
+        return filterStatus === character.status;
+        
+    }) 
+    
+//nuevo array que recoge filtro de status
+/* const filteredStatus = characters.filter((character) => {
+    return character.status
+})
+ */
   return (
     <>
       <Header />
       <main>
-        <Filters onChangeName={changeName}/>
+        <Filters onChangeName={changeName} onChangeStatus={changeStatus}/>
         <CharacterList charactersData={filteredCharacters} />
       </main>
     </>
