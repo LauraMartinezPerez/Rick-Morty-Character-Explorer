@@ -38,21 +38,17 @@ const changeStatus = (valueStatus) => {
     setFilterStatus(valueStatus);
     
 }
-
-
-//nuevo array que recoge el filtro por nombre
+    //FILTROS
     const filteredCharacters = characters.filter((character) => {
         return character.name.toLowerCase().includes(filterName.toLowerCase());
     }).filter((character) => {
-        return filterStatus === character.status;
-        
+        if (filterStatus === ""){
+            return true;
+        } else {
+            return filterStatus === character.status;}
     }) 
     
-//nuevo array que recoge filtro de status
-/* const filteredStatus = characters.filter((character) => {
-    return character.status
-})
- */
+
   return (
     <>
       <Header />
