@@ -13,8 +13,8 @@ function FilterStatus({ onChangeStatus }) {
       <input type="radio" id="alive" name="status" value="Alive" onChange={handleRadio}/>
       <label htmlFor="dead">Dead</label>
       <input type="radio" id="dead" name="status" value="Dead" onChange={handleRadio}/>
-      <label htmlFor="Unknown">Unknown</label>
-      <input type="radio" id="Unknown" name="status" value="Unknown" onChange={handleRadio}/>
+      <label htmlFor="unknown">Unknown</label>
+      <input type="radio" id="unknown" name="status" value="unknown" onChange={handleRadio}/>
 
     </div>
   )
