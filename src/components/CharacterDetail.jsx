@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 function CharacterDetail({character}) {
 
@@ -9,6 +10,9 @@ function CharacterDetail({character}) {
             <p>{character.species}</p>
             <p>{character.origin}</p>
             <p>{character.episodes}</p>
+            <Link to={"/"}>⬅︎ Atras</Link>
+            <FontAwesomeIcon icon="fa-sharp-duotone fa-solid fa-arrow-left" />
+          
       </section>
     )
   }

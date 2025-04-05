@@ -1,16 +1,13 @@
 import FilterName from "./FilterName";
-import FilterStatus from "./FilterStatus";
+import FilterSpecies from "./FilterSpecies";
 
-function Filters({ onChangeName, onChangeStatus }) {
+function Filters({ onChangeName, onChangeSpecies, onReset, currentName, currentSpecies }) {
 
-  const handleSubmit = (ev) => {
-    ev.preventDefault(); 
-  };
-  
   return (
-    <form className="filtersClass" onSubmit={handleSubmit}>
-        <FilterName onChangeName={onChangeName}/>
-        <FilterStatus onChangeStatus={onChangeStatus}/>
+    <form className="filtersClass">
+        <FilterName onChangeName={onChangeName} currentName={currentName}/>
+        <FilterSpecies onChangeSpecies={onChangeSpecies} currentSpecies={currentSpecies}/>
+        <button type="button" onClick={onReset}>Reset</button>
     </form>
   );
 }
