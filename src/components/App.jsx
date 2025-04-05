@@ -45,7 +45,9 @@ const changeSpecies = (valueSpecies) => {
         return character.name.toLowerCase().includes(filterName.toLowerCase());
     }).filter((character) => {
         return filterSpecies === "" ? true : filterSpecies === character.species;
-    }) 
+    }).sort((a, b) => {
+      return a.name.localeCompare(b.name); //localeCompare ordena cadenas y respeta idioma/mayus/minus
+  });
     
 
     const { pathname } = useLocation();
