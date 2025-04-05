@@ -46,7 +46,9 @@ const changeSpecies = (valueSpecies) => {
     }).filter((character) => {
         return filterSpecies === "" ? true : filterSpecies === character.species;
     }).sort((a, b) => {
-      return a.name.localeCompare(b.name); //BONUS 8: sort ordena alfabeticamente y localeCompare maneja las mayúsculas y minúsculas según el idioma
+      return a.name.localeCompare(b.name); ////BONUS 8: sort ordena alfabeticamente y localeCompare maneja las mayúsculas y minúsculas según el idioma
+      
+  });
     
 
     const { pathname } = useLocation();
