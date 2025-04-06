@@ -1,0 +1,51 @@
+@use "../core/variables" as vars;
+
+.filtersClass {
+    background-color: vars.$color-black;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 70px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid vars.$border-box-blue;
+    box-shadow: 0 0 15px vars.$border-box-blue;
+
+    &__name {
+        font-family: vars.$font-title;
+        color: vars.$color-name-title;
+        font-size: 20px;
+    }
+
+    &__inputName {
+        background-color: vars.$color-black;
+        border: 2px solid vars.$border-box-blue;
+        border-radius: 5px;
+        padding: 8px;
+        width: 200px;
+    }
+
+    &__specieOption {
+        font-family: vars.$font-title;
+        color: vars.$color-name-title;
+/*         display: inline-flex;
+        align-items: center; */
+        margin-right: 15px;
+/*         position: relative; */
+        padding-left: 40px;
+        font-size: 20px;
+    }
+    &__inputSpecie {
+        width: 20px;
+        height: 20px;      
+    }
+
+    &__button {
+        width: 100px;
+        margin-left: 10px;
+      
+        
+    }
+  
+
+}
+

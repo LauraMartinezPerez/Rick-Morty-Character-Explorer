@@ -6,8 +6,8 @@ function CharacterCard({characterData}) {
     <li className='listClass__li'>
       <Link to={`/detail/${characterData.id}`}>
         <img className='listClass__img' src={characterData.image} alt={""} />
-        <p>{characterData.name}</p>
-        <p>{characterData.species}</p>
+        <p className='listClass__characterName'>{characterData.name}</p>
+        <p className='listClass__characterSpecies'>{characterData.species}</p>
       </Link>
     </li>
   )  

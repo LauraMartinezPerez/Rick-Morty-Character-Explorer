@@ -1,12 +1,15 @@
 @use 'core/reset';
 @use "layout/characterList";
 @use "layout/characterDetail";
+@use "layout/header";
+@use "layout/filters";
 @use "core/variables" as vars;
 
 :root {
 
     color: vars.$color-black;
-    font-family: vars.$font-normal;
+    background: url("/src/images/cover.webp") no-repeat center center fixed;
+    background-size: cover;
 
-    
 }
+

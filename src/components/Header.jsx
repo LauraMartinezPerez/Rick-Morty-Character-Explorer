@@ -2,8 +2,9 @@
 
 function Header() {
   return (
-    <header>
-        <h1>Header</h1>
+    <header className="header">
+{/*          <img src="https://i.imgur.com/F8xlKY6.png"/>  */}
+       
     </header>
   )
 }
