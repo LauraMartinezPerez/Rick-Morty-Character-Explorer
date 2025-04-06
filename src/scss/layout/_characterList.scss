@@ -27,8 +27,10 @@
         gap: 10px;
         padding-bottom: 10px;
         padding-top: 10px;
+    }
 
-
+    &__li:hover {
+        transform: scale(1.1);
     }
 
     &__img {
@@ -38,6 +40,8 @@
         max-width: min(400px, 100%);
         min-width: max(100px, 50%);
     }
+
+   
 
     &__characterName {
         color: vars.$color-name-title;

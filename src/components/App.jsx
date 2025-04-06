@@ -3,6 +3,7 @@ import Header from "./Header";
 import CharacterList from "./CharacterList";
 import Filters from "./Filters";
 import CharacterDetail from "./CharacterDetail";
+import NoCharacter from "./NoCharacter";
 import { Routes, Route, useLocation, matchPath } from "react-router-dom";
 import { useEffect, useState } from "react";
 
@@ -80,7 +81,7 @@ const changeSpecies = (valueSpecies) => {
             <>
               <Filters onChangeName={changeName} currentName={filterName} currentSpecies={filterSpecies} onChangeSpecies={changeSpecies} onReset={resetFilters}/>
               {filteredCharacters.length === 0 ? (
-                <p>No hay ningún personaje que coincida con la palabra "{filterName}"</p>)
+                <NoCharacter filterName={filterName}/>)
                 : (<CharacterList charactersData={filteredCharacters} />)
               }
               
