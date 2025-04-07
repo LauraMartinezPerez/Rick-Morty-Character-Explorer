@@ -11,6 +11,7 @@ align-items: center;
 
    &__img {
       width: 70%;
+      
    }
 }
 
@@ -19,6 +20,16 @@ align-items: center;
       
          &__img {
             width: 120%;
+            
          }
       }
 }
+
+   @media screen and (min-width: 800px) {
+   .header {
+      
+      &__img {
+         max-width: 500px;
+      }
+   }
+}   
