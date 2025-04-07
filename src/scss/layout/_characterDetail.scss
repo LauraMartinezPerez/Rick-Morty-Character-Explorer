@@ -1,9 +1,81 @@
-
+@use "../core/variables" as vars;
 
 .characterDetail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.6); 
+        backdrop-filter: blur(4px);
+        padding: 2rem;
+        color: vars.$color-white;
+        border-radius: 20px;
+        width: 60%;
+        height: 400px;
+        gap: 50px;
+        margin-top: 50px;
+    }
+    
+        &__imgContainer {
+
+        
+        }
+    
+        &__img {
+            border-radius: 100%;
+            border: 12px solid vars.$border-box-green;
+            box-shadow: 0 0 20px vars.$border-box-green;     
+            width: 250px; 
+            height: 250px; 
+        }
+    
+        &__name {
+            font-family: vars.$font-title;  
+            color: vars.$color-name-title;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+
+        &__data {
+            font-family: vars.$font-normal;
+            font-size: 20px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+      
+}
+/* .backLink {
+    background-color: greenyellow;
+    width: 300px;
+    
+} */
+
+
+.NoExistCharacter {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    &__text {
+       
+        text-align: center;
+        margin-top: 20px;
+        font-family: vars.$font-title;
+        color: vars.$color-name-title;
+        font-size: 40px;
+        letter-spacing: 1px;
+    }
 
     &__img {
-
+        width: 40%;    
     }
 
 }

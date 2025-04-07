@@ -62,7 +62,7 @@
     }
 
     &__button:hover {
-        
+        transform: scale(1.1);
         box-shadow: 0 0 30px vars.$border-box-blue;
     }
 }
@@ -86,7 +86,7 @@
     }
 
     &__img {
-        width: 50%;
+        width: 40%;
     }
 }
 
