@@ -3,14 +3,13 @@
 .listClass {
 
     &__ul {
-        
+    
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
         justify-content: center;
         justify-items: center;
         padding: 30px 60px; 
-
     }
 
     &__li {
@@ -61,3 +60,15 @@
 }
 
 
+@media screen and (max-width: 768px) {
+    .listClass {
+        &__ul {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-content: center;
+            justify-items: center;
+            padding: 30px 60px;
+        }
+    }
+}

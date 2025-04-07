@@ -13,3 +13,12 @@ align-items: center;
       width: 70%;
    }
 }
+
+@media screen and (max-width: 768px) {
+   .header {
+      
+         &__img {
+            width: 120%;
+         }
+      }
+}
