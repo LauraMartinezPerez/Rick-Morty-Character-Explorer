@@ -5,9 +5,9 @@ function Filters({ onChangeName, onChangeSpecies, onReset, currentName, currentS
 
   return (
     <form className="filtersClass">
-        <FilterName onChangeName={onChangeName} currentName={currentName}/>
-        <FilterSpecies onChangeSpecies={onChangeSpecies} currentSpecies={currentSpecies}/>
-        <button className="filtersClass__button" type="button" onClick={onReset}>Reset</button>
+      <FilterName onChangeName={onChangeName} currentName={currentName}/>
+      <FilterSpecies onChangeSpecies={onChangeSpecies} currentSpecies={currentSpecies}/>
+      <button className="filtersClass__button" type="button" onClick={onReset}>Reset</button>
     </form>
   );
 }

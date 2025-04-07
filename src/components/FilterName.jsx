@@ -6,10 +6,9 @@ function FilterName({ onChangeName, currentName }) {
   };
 
   return (
-
     <div>
-    <label className="filtersClass__name" htmlFor="characterName">Nombre </label>
-    <input className="filtersClass__inputName" type="text"   id="characterName" placeholder="Escribe el nombre" value={currentName} onChange={handleChangeName}/>
+      <label className="filtersClass__name" htmlFor="characterName">Nombre </label>
+      <input className="filtersClass__inputName" type="text"   id="characterName" placeholder="Escribe el nombre" value={currentName} onChange={handleChangeName}/>
     </div>
   )
 }

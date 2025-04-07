@@ -51,7 +51,6 @@ const changeSpecies = (valueSpecies) => {
       
   });
     
-
     const { pathname } = useLocation();
     const routeData = matchPath("/detail/:id", pathname);
 
@@ -84,13 +83,10 @@ const changeSpecies = (valueSpecies) => {
                 <NoCharacter filterName={filterName}/>)
                 : (<CharacterList charactersData={filteredCharacters} />)
               }
-              
-              </>
+            </>
           )} />
           <Route path="/detail/:id" element={<CharacterDetail character={characterSelected}/>}/>
-
         </Routes>
-
       </main>
     </>
   );
