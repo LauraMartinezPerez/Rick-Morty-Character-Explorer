@@ -81,7 +81,7 @@ La aplicación se adapta perfectamente a cualquier dispositivo, ya sea móvil, t
 
 - **Mensaje de error con meme cuando no se encuentra un personaje:**
 
-  ![Manejo de errores](public/character-not-found.webp)
+  ![Manejo de errores](images/character-not-found.webp)
 
 ## 💡 Inspiración
 
