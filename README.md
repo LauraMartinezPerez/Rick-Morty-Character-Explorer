@@ -73,15 +73,15 @@ La aplicación se adapta perfectamente a cualquier dispositivo, ya sea móvil, t
 
 - **Listado de personajes con filtros aplicados:**
 
-  ![Listado de personajes](https://beta.adalab.es/modulo-3-evaluacion-final-LauraMartinezPerez/#/)
+  ![Listado de personajes](https://lauramartinezperez.github.io/Rick-Morty-Character-Explorer/)
 
 - **Página de detalle de un personaje:**
 
-  ![Detalle de personaje](https://beta.adalab.es/modulo-3-evaluacion-final-LauraMartinezPerez/#/detail/1)
+  ![Detalle de personaje](https://lauramartinezperez.github.io/Rick-Morty-Character-Explorer/#/detail/1)
 
 - **Mensaje de error con meme cuando no se encuentra un personaje:**
 
-  ![Manejo de errores](https://beta.adalab.es/modulo-3-evaluacion-final-LauraMartinezPerez/#/detail/9999)
+  ![Manejo de errores](https://lauramartinezperez.github.io/Rick-Morty-Character-Explorer/#/detail/9999)
 
 ## 💡 Inspiración
 
