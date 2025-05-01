@@ -77,7 +77,7 @@ Este proyecto fue desarrollado como parte de mi formación en desarrollo web, co
 
 Si tienes preguntas, sugerencias o simplemente quieres decir "¡Hola!", no dudes en contactarme:
 
-- **LinkedIn**: (https://www.linkedin.com/in/laura-martinez-perez-a5aa78299)
+- **LinkedIn**: [Ir a Linkedin](https://www.linkedin.com/in/laura-martinez-perez-a5aa78299)
 
 ---
 
