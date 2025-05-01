@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: { watch: { usePolling: true }, open: true, },
-  base: "/modulo-3-evaluacion-final-LauraMartinezPerez/",
+  base: "/Rick-Morty-Character-Explorer/",
 });
