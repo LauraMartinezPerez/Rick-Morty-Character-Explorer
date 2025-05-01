@@ -67,21 +67,7 @@ La aplicación se adapta perfectamente a cualquier dispositivo, ya sea móvil, t
 3. **Inicia la aplicacion:**
 
    ```bash
-   npm start
-
-## 📸 Capturas de pantalla
-
-- **Listado de personajes con filtros aplicados:**
-
-  ![Listado de personajes](https://lauramartinezperez.github.io/Rick-Morty-Character-Explorer/)
-
-- **Página de detalle de un personaje:**
-
-  ![Detalle de personaje](https://lauramartinezperez.github.io/Rick-Morty-Character-Explorer/#/detail/1)
-
-- **Mensaje de error con meme cuando no se encuentra un personaje:**
-
-  ![Manejo de errores](images/character-not-found.webp)
+   npm run dev
 
 ## 💡 Inspiración
 
