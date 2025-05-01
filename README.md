@@ -67,21 +67,7 @@ La aplicación se adapta perfectamente a cualquier dispositivo, ya sea móvil, t
 3. **Inicia la aplicacion:**
 
    ```bash
-   npm start
-
-## 📸 Capturas de pantalla
-
-- **Listado de personajes con filtros aplicados:**
-
-  ![Listado de personajes](https://beta.adalab.es/modulo-3-evaluacion-final-LauraMartinezPerez/#/)
-
-- **Página de detalle de un personaje:**
-
-  ![Detalle de personaje](https://beta.adalab.es/modulo-3-evaluacion-final-LauraMartinezPerez/#/detail/1)
-
-- **Mensaje de error con meme cuando no se encuentra un personaje:**
-
-  ![Manejo de errores](https://beta.adalab.es/modulo-3-evaluacion-final-LauraMartinezPerez/#/detail/9999)
+   npm run dev
 
 ## 💡 Inspiración
 
