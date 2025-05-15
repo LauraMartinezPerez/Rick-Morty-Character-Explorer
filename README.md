@@ -1,6 +1,6 @@
 # 🛸 Rick & Morty Character Explorer
 
-¡Bienvenid@ al universo de Rick and Morty! Esta aplicación web te permite explorar personajes de la serie, filtrarlos por nombre y especie, y ver detalles individuales. Todo con una interfaz atractiva y temática, desarrollada con React y Sass.
+¡Bienvenid@ al universo de Rick and Morty! Esta aplicación web te permite explorar personajes de la serie, filtrarlos por nombre y especie, y ver detalles individuales. Todo con una interfaz atractiva y temática, desarrollada con React.
 
 ## ✨ Características
 
